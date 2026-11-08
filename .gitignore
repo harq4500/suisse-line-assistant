@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment Variables & Secrets (CRITICAL: Never commit API keys!)
+.env
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Binaries
+cloudflared
+
+# OS files
+.DS_Store
+Thumbs.db

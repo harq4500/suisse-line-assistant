@@ -1,0 +1,88 @@
+{
+  "bookings": [
+    {
+      "id": "ACZ-1001",
+      "customer_name": "Beat Meier",
+      "phone_number": "+41791234567",
+      "datetime": "2026-11-10T10:00:00+01:00",
+      "service": "Herrenhaarschnitt",
+      "stylist": "Sarah",
+      "calendly_link": "/reschedule?booking_id=ACZ-1001",
+      "created_at": "2026-11-08T20:18:07.361Z"
+    },
+    {
+      "id": "ACZ-2120",
+      "customer_name": "Lukas Huber",
+      "phone_number": "+41794567890",
+      "datetime": "2026-11-10T14:00",
+      "service": "Herrenhaarschnitt",
+      "stylist": "Team",
+      "calendly_link": "/reschedule?booking_id=ACZ-2120",
+      "created_at": "2026-11-08T20:18:46.498Z"
+    },
+    {
+      "id": "ACZ-5840",
+      "customer_name": "Anna Meier",
+      "phone_number": "+41 79 000 00 00",
+      "datetime": "2026-11-11T11:00",
+      "service": "Damenhaarschnitt",
+      "stylist": "Team",
+      "calendly_link": "/reschedule?booking_id=ACZ-5840",
+      "created_at": "2026-11-08T20:20:56.390Z"
+    },
+    {
+      "id": "ACZ-3278",
+      "customer_name": "Fabian Frei",
+      "phone_number": "+41 79 000 00 00",
+      "datetime": "2026-11-12 11:00",
+      "service": "Herrenhaarschnitt",
+      "stylist": "Team",
+      "calendly_link": "/reschedule?booking_id=ACZ-3278",
+      "created_at": "2026-11-08T20:24:00.328Z",
+      "status": "RESCHEDULED"
+    }
+  ],
+  "sms_logs": [
+    {
+      "id": "SMS-1001",
+      "booking_id": "ACZ-1001",
+      "recipient": "+41791234567",
+      "message": "Atelier Coiffure Zürich: Hallo Beat Meier, Ihr Termin für Herrenhaarschnitt am 10.11.2026 um 10:00 Uhr ist bestätigt! Ort: Bahnhofstrasse 42, 8001 Zürich. Termin ändern/absagen: /reschedule?booking_id=ACZ-1001. Bis bald!",
+      "status": "DELIVERED",
+      "timestamp": "2026-11-08T20:18:07.361Z"
+    },
+    {
+      "id": "SMS-7240",
+      "booking_id": "ACZ-2120",
+      "recipient": "+41794567890",
+      "message": "Atelier Coiffure Zürich: Grüezi Lukas Huber! Ihr Termin für Herrenhaarschnitt am 2026-11-10 14:00 ist bestätigt. Ort: Bahnhofstrasse 42, 8001 Zürich. Termin verschieben oder absagen: /reschedule?booking_id=ACZ-2120. Bis bald!",
+      "status": "DELIVERED",
+      "timestamp": "2026-11-08T20:18:46.498Z"
+    },
+    {
+      "id": "SMS-2445",
+      "booking_id": "ACZ-5840",
+      "recipient": "+41 79 000 00 00",
+      "message": "Atelier Coiffure Zürich: Grüezi Anna Meier! Ihr Termin für Damenhaarschnitt am 2026-11-11 11:00 ist bestätigt. Ort: Bahnhofstrasse 42, 8001 Zürich. Termin verschieben oder absagen: /reschedule?booking_id=ACZ-5840. Bis bald!",
+      "status": "DELIVERED",
+      "timestamp": "2026-11-08T20:20:56.390Z"
+    },
+    {
+      "id": "SMS-4369",
+      "booking_id": "ACZ-3278",
+      "recipient": "+41 79 000 00 00",
+      "message": "Atelier Coiffure Zürich: Grüezi Fabian Frei! Ihr Termin für Herrenhaarschnitt am 2026-11-12 15:30 ist bestätigt. Ort: Bahnhofstrasse 42, 8001 Zürich. Termin verschieben oder absagen: /reschedule?booking_id=ACZ-3278. Bis bald!",
+      "status": "DELIVERED",
+      "timestamp": "2026-11-08T20:24:00.328Z"
+    },
+    {
+      "id": "SMS-9210",
+      "booking_id": "ACZ-3278",
+      "recipient": "+41 79 000 00 00",
+      "message": "Atelier Coiffure Zürich: Ihr Termin für Herrenhaarschnitt wurde erfolgreich auf 2026-11-12 11:00 verschoben! Wir freuen uns auf Sie.",
+      "status": "DELIVERED",
+      "timestamp": "2026-11-08T20:52:18.995Z"
+    }
+  ],
+  "call_events": []
+}
